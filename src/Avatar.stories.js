@@ -27,6 +27,13 @@ Sizes.args = {
   src: "https://avatars2.githubusercontent.com/u/132554",
 };
 
+Sizes.parameters = {
+  docs: {
+    // The story now contains a description
+    storyDescription: "4 sizes are supported.",
+  },
+};
+
 export const Initials = (args) => (
   <div>
     <Avatar username="Tom Coleman" />
@@ -69,4 +76,13 @@ Controls.args = {
   size: "tiny",
   username: "Dominic Nguyen",
   src: "https://avatars2.githubusercontent.com/u/263385",
+};
+
+export default {
+  title: "Design System/Avatar",
+  component: Avatar,
+  parameters: {
+    componentSubtitle:
+      "Displays an image that represents a user or organization",
+  },
 };

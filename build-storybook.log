@@ -4,7 +4,82 @@ Found & ignored ./src\stories\button.css ; has ignored extension
 Found & ignored ./src\stories\header.css ; has ignored extension
 Found & ignored ./src\stories\page.css ; has ignored extension
 
-Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--4272-UQF1uTCKI7mh
+Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--12444-f6G9d4FLv30r
+./build-storybook.log changed
+
+Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--12444-f6G9d4FLv30r
+node:internal/modules/cjs/loader:928
+  throw err;
+  ^
+
+Error: Cannot find module 'D:\Proyectos\learnstorybook-design-system\build-storybook'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+./src\Avatar.stories.js changed
+
+Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--12444-f6G9d4FLv30r
+./build-storybook.log changed
+
+Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--12444-f6G9d4FLv30r
+node:internal/modules/cjs/loader:928
+  throw err;
+  ^
+
+Error: Cannot find module 'D:\Proyectos\learnstorybook-design-system\build-storybook'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+./src\Avatar.js changed
+
+Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--12444-f6G9d4FLv30r
+./build-storybook.log changed
+
+Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--12444-f6G9d4FLv30r
+node:internal/modules/cjs/loader:928
+  throw err;
+  ^
+
+Error: Cannot find module 'D:\Proyectos\learnstorybook-design-system\build-storybook'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+./src\Avatar.stories.js changed
+
+Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--12444-f6G9d4FLv30r
+./build-storybook.log changed
+
+Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--12444-f6G9d4FLv30r
+node:internal/modules/cjs/loader:928
+  throw err;
+  ^
+
+Error: Cannot find module 'D:\Proyectos\learnstorybook-design-system\build-storybook'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:925:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+./src\Avatar.stories.js changed
+
+Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--12444-f6G9d4FLv30r
+./build-storybook.log changed
+
+Starting: build-storybook -- --output-dir C:\\Users\\tyu79\\AppData\\Local\\Temp\\chromatic--12444-f6G9d4FLv30r
 node:internal/modules/cjs/loader:928
   throw err;
   ^
