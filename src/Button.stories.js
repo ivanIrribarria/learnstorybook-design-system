@@ -14,7 +14,12 @@ const CustomButton = styled.button`
 `;
 
 function ButtonWrapper(props) {
+  return <CustomButton {...props} />;
+}
+
+export const buttonWrapper = (args) => {
   return <CustomButton {...props}/>;
+// … etc ..
 }
 
 export default {
