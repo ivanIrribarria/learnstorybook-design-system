@@ -2657,6 +2657,28 @@
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
   integrity sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw==
 
+"@storybook/addon-a11y@^6.1.18":
+  version "6.1.18"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-6.1.18.tgz#b6e7c9302f556368ce9d7fb36532fe0868319f3a"
+  integrity sha512-zaIHwGU5vluDWYmthoF0TQYpoLdL1gX1kT/3kCmo2lFNwGyr0HewX3aar7HAImsUn/s3ksweZrW5iv394bDK8w==
+  dependencies:
+    "@storybook/addons" "6.1.18"
+    "@storybook/api" "6.1.18"
+    "@storybook/channels" "6.1.18"
+    "@storybook/client-api" "6.1.18"
+    "@storybook/client-logger" "6.1.18"
+    "@storybook/components" "6.1.18"
+    "@storybook/core-events" "6.1.18"
+    "@storybook/theming" "6.1.18"
+    axe-core "^4.0.1"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    lodash "^4.17.15"
+    react-sizeme "^2.5.2"
+    regenerator-runtime "^0.13.7"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
 "@storybook/addon-actions@6.1.18", "@storybook/addon-actions@^6.1.18":
   version "6.1.18"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.1.18.tgz#9dad0f2be52db778ec4519f130d9e0c46188b504"
@@ -4590,6 +4612,11 @@ aws4@^1.8.0:
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.10.1.tgz#e1e82e4f3e999e2cfd61b161280d16a111f86428"
   integrity sha512-zg7Hz2k5lI8kb7U32998pRRFin7zJlkfezGJjUc2heaD4Pw2wObakCDVzkKztTm/Ln7eiVvYsjqak0Ed4LkMDA==
+
+axe-core@^4.0.1:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.1.2.tgz#7cf783331320098bfbef620df3b3c770147bc224"
+  integrity sha512-V+Nq70NxKhYt89ArVcaNL9FDryB3vQOd+BFXZIfO3RP6rwtj+2yqqqdHEkacutglPaZLkJeuXKCjCJDMGPtPqg==
 
 axios@0.21.1:
   version "0.21.1"
@@ -13438,7 +13465,7 @@ react-scripts@3.4.3:
   optionalDependencies:
     fsevents "2.1.2"
 
-react-sizeme@^2.6.7:
+react-sizeme@^2.5.2, react-sizeme@^2.6.7:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/react-sizeme/-/react-sizeme-2.6.12.tgz#ed207be5476f4a85bf364e92042520499455453e"
   integrity sha512-tL4sCgfmvapYRZ1FO2VmBmjPVzzqgHA7kI8lSJ6JS6L78jXFNRdOZFpXyK6P1NBZvKPPCZxReNgzZNUajAerZw==

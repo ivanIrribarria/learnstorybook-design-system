@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import { GlobalStyle } from '../src/shared/global';
+import { GlobalStyle } from "../src/shared/global";
 
 // Global decorator to apply the styles to all stories
 export const decorators = [
-  Story => (
+  (Story) => (
     <>
       <GlobalStyle />
       <Story />
@@ -13,5 +13,5 @@ export const decorators = [
 ];
 
 export const parameters = {
-  actions: { argTypesRegex: '^on[A-Z].*' },
+  actions: { argTypesRegex: "^on[A-Z].*" },
 };
